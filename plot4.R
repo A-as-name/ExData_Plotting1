@@ -33,7 +33,7 @@ plot(df_epc$Datetime, df_epc$Voltage, type = "l", main = "", xlab = "datetime", 
 plot(df_epc$Datetime, df_epc$Sub_metering_1, type = "l", col = "black", main = "", xlab = "", ylab = "Energy sub metering")
 lines(df_epc$Datetime, df_epc$Sub_metering_2, type = "l", col = "red")
 lines(df_epc$Datetime, df_epc$Sub_metering_3, type = "l", col = "blue")
-legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col = c("black", "red", "blue"), lty = c(1,1,1), cex=0.6,bty = "n")
+legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col = c("black", "red", "blue"), lty = c(1,1,1), cex=0.7,bty = "n")
 
 ## Graphic 4
 plot(df_epc$Datetime, df_epc$Global_reactive_power, type = "l", main = "", xlab = "datetime", ylab = "Global_reactive_power")
